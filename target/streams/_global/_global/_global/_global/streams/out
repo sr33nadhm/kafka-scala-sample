@@ -1,0 +1,5 @@
+[debug] [watch] [kafka-scala-sample / Compile / run] Found inputs: C:\Users\SREENATH\IdeaProjects\kafka-scala-sample\*.{java,scala},C:\Users\SREENATH\IdeaProjects\kafka-scala-sample\src\main\java\**\*.{java,scala},C:\Users\SREENATH\IdeaProjects\kafka-scala-sample\src\main\resources\**\*,C:\Users\SREENATH\IdeaProjects\kafka-scala-sample\src\main\scala\**\*.{java,scala},C:\Users\SREENATH\IdeaProjects\kafka-scala-sample\src\main\scala-2.13\**\*.{java,scala}
+[info] 1. Monitoring source files for kafka-scala-sample/run...
+[info]    Press <enter> to interrupt or '?' for more options.
+[debug] [watch] [debug] Received input event: Run().
+[debug] [watch] [debug] Received input event: Run().
