@@ -23,4 +23,7 @@ class Consumer extends Thread{
       }
     }
   }
+  override def interrupt(): Unit = {
+    System.exit(0)
+  }
 }

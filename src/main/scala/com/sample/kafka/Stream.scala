@@ -22,7 +22,6 @@ class Stream extends Thread{
     val topology = builder.build
     val streams = new KafkaStreams(topology, props)
     val latch = new CountDownLatch(1)
-
     // attach shutdown handler to catch control-c
     Runtime.getRuntime.addShutdownHook(new Thread("streams-shutdown-hook") {
       override def run(): Unit = {
@@ -38,6 +37,9 @@ class Stream extends Thread{
       case e: Throwable =>
         System.exit(1)
     }
+    System.exit(0)
+  }
+  override def interrupt(): Unit = {
     System.exit(0)
   }
 }
