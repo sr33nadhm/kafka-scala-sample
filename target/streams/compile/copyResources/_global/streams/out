@@ -1,2 +1,3 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
 [0m[[0m[0mdebug[0m] [0m[0m	(/home/ntedev/Downloads/Kafka/kafka-scala-sample/src/main/resources/log4j.properties,/home/ntedev/Downloads/Kafka/kafka-scala-sample/target/scala-2.11/classes/log4j.properties)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/ntedev/Downloads/Kafka/kafka-scala-sample/src/main/resources/filebeat.yml,/home/ntedev/Downloads/Kafka/kafka-scala-sample/target/scala-2.11/classes/filebeat.yml)[0m

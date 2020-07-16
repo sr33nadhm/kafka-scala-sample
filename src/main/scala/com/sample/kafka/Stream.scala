@@ -39,7 +39,4 @@ class Stream extends Thread{
     }
     System.exit(0)
   }
-  override def interrupt(): Unit = {
-    System.exit(0)
-  }
 }
